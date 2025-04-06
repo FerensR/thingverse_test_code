@@ -51,7 +51,7 @@ volatile bool attributesChanged = false;
 
 // LED modes: 0 - continious state, 1 - blinking
 volatile int ledMode = 0;
-
+//test edit
 // Current led state
 volatile bool ledState = false;
 
