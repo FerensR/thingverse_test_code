@@ -13,20 +13,25 @@
 #include <ThingsBoard.h>
 
 constexpr char WIFI_SSID[] = "iPhone Роман";
-constexpr char WIFI_PASSWORD[] = "22222222";
+constexpr char WIFI_PASSWORD[] = 
+"22222222";
 
 // See https://thingsboard.io/docs/getting-started-guides/helloworld/
 // to understand how to obtain an access token
+//test comment
+//test comment2
 constexpr char TOKEN[] = "ntc6tr84dh0gk73tv779";
 
 // Thingsboard we want to establish a connection too
-constexpr char THINGSBOARD_SERVER[] = "http://195.211.87.243/";
+constexpr char THINGSBOARD_SERVER[] = "http://195.211.87.243/sdl fds;ljfljad;f;jglskjk;l jsdflk;g;lha klsdg;lk dshajasdkl;ljasd 
+'fadsg 'KAG 'kah'klghADKL:GHLK;SHGKLJdslkgj;LKDSHGK;Lhdskl:ghKLsdhgKL;DshgKEja:
+fj;SLJF;AJSF;L JS;LFJsjf;LSAJF;LJasjlf;LSJF;LJ saJ F;jas;LFJsa l:";
 // MQTT port used to communicate with the server, 1883 is the default unencrypted MQTT port.
 constexpr uint16_t THINGSBOARD_PORT = 1883U;
 
 // Maximum size packets will ever be sent or received by the underlying MQTT client,
 // if the size is to small messages might not be sent or received messages will be discarded
-constexpr uint32_t MAX_MESSAGE_SIZE = 1024U;
+constexpr uint32_t MAX_MESSAGE_SIZE = 2048U;
 
 // Baud rate for the debugging serial connection.
 // If the Serial output is mangled, ensure to change the monitor speed accordingly to this variable
@@ -43,7 +48,7 @@ ThingsBoard tb(mqttClient, MAX_MESSAGE_SIZE);
 // Attribute names for attribute request and attribute updates functionality
 
 constexpr char BLINKING_INTERVAL_ATTR[] = "blinkingInterval";
-constexpr char LED_MODE_ATTR[] = "ledMode";
+constexpr char LED_MODE_ATTR[] = "dfjhd";
 constexpr char LED_STATE_ATTR[] = "ledState";
 
 // handle led state and mode changes
@@ -104,7 +109,7 @@ const bool reconnect() {
   InitWiFi();
   return true;
 }
-
+//hkfsdhfkjsdhfjgsdjkfhkdshfhjksdgf kjdlkshf kjsdhfdhsfhsdk glfkjsdh fhdslkfhkjlsdhfkjdsh lkjfhlkjsdhflhsdkfhdaskj flkjsd hfkj 
 
 /// @brief Processes function for RPC call "setLedMode"
 /// RPC_Data is a JSON variant, that can be queried using operator[]
