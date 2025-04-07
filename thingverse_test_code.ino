@@ -13,7 +13,8 @@
 #include <ThingsBoard.h>
 
 constexpr char WIFI_SSID[] = "iPhone Роман";
-constexpr char WIFI_PASSWORD[] = "22222222";
+constexpr char WIFI_PASSWORD[] = 
+"22222222";
 
 // See https://thingsboard.io/docs/getting-started-guides/helloworld/
 // to understand how to obtain an access token
@@ -22,7 +23,9 @@ constexpr char WIFI_PASSWORD[] = "22222222";
 constexpr char TOKEN[] = "ntc6tr84dh0gk73tv779";
 
 // Thingsboard we want to establish a connection too
-constexpr char THINGSBOARD_SERVER[] = "http://195.211.87.243/";
+constexpr char THINGSBOARD_SERVER[] = "http://195.211.87.243/sdl fds;ljfljad;f;jglskjk;l jsdflk;g;lha klsdg;lk dshajasdkl;ljasd 
+'fadsg 'KAG 'kah'klghADKL:GHLK;SHGKLJdslkgj;LKDSHGK;Lhdskl:ghKLsdhgKL;DshgKEja:
+fj;SLJF;AJSF;L JS;LFJsjf;LSAJF;LJasjlf;LSJF;LJ saJ F;jas;LFJsa l:";
 // MQTT port used to communicate with the server, 1883 is the default unencrypted MQTT port.
 constexpr uint16_t THINGSBOARD_PORT = 1883U;
 
