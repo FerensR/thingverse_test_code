@@ -17,6 +17,8 @@ constexpr char WIFI_PASSWORD[] = "22222222";
 
 // See https://thingsboard.io/docs/getting-started-guides/helloworld/
 // to understand how to obtain an access token
+//test comment
+//test comment2
 constexpr char TOKEN[] = "ntc6tr84dh0gk73tv779";
 
 // Thingsboard we want to establish a connection too
@@ -26,7 +28,7 @@ constexpr uint16_t THINGSBOARD_PORT = 1883U;
 
 // Maximum size packets will ever be sent or received by the underlying MQTT client,
 // if the size is to small messages might not be sent or received messages will be discarded
-constexpr uint32_t MAX_MESSAGE_SIZE = 1024U;
+constexpr uint32_t MAX_MESSAGE_SIZE = 2048U;
 
 // Baud rate for the debugging serial connection.
 // If the Serial output is mangled, ensure to change the monitor speed accordingly to this variable
