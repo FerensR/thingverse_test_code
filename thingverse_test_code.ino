@@ -45,7 +45,7 @@ ThingsBoard tb(mqttClient, MAX_MESSAGE_SIZE);
 // Attribute names for attribute request and attribute updates functionality
 
 constexpr char BLINKING_INTERVAL_ATTR[] = "blinkingInterval";
-constexpr char LED_MODE_ATTR[] = "ledMode";
+constexpr char LED_MODE_ATTR[] = "dfjhd";
 constexpr char LED_STATE_ATTR[] = "ledState";
 
 // handle led state and mode changes
@@ -106,7 +106,7 @@ const bool reconnect() {
   InitWiFi();
   return true;
 }
-
+//hkfsdhfkjsdhfjgsdjkfhkdshfhjksdgf kjdlkshf kjsdhfdhsfhsdk glfkjsdh fhdslkfhkjlsdhfkjdsh lkjfhlkjsdhflhsdkfhdaskj flkjsd hfkj 
 
 /// @brief Processes function for RPC call "setLedMode"
 /// RPC_Data is a JSON variant, that can be queried using operator[]
